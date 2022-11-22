@@ -32,3 +32,38 @@
     border-radius: 10px;
     list-style: none;
   }
+  
+  /* (Just ignore)top banner style */
+  .top-banner {
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #ea4c4c;
+    padding: 2%;
+  }
+  
+  .top-banner a, .top-banner span {
+    display: inline-block;
+  }
+  
+  .top-banner a {
+    width: 100%;
+    padding: 15px 0px;
+    text-decoration: none;
+    color: #fff;
+    color: rgba(255, 255, 255, .8);
+  }
+  
+  .top-banner span{
+    width:auto;
+    height: auto;
+    padding: 15px;
+    margin: 0px;
+    align-self: flex-start;
+    line-height: 28px;
+    background-color: var(--themeDarkPink);
+    border-radius: 10px;
+  }
+  
+  .top-banner span:hover {
+    background-color: var(--themeMagenta);
+  }
